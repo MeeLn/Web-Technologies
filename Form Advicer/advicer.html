@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Advisor</title>
+        <script type="text/javascript" src="advisor.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="form">
+            <h4>Registration</h4>
+            <form id="myform" action="">
+                <label>Hint:<textarea cols="50" rows="1" id="hint">This box provides help in filling the forms</textarea><br/><br/></label>
+                <label>Your Full Name:<input type="text" id="name" placeholder="Milan Raut" onmouseover="helper(0);"><br/><br/></label>
+                <label>Email:<input type="text" id="email" placeholder="milan@gmail.com" onmouseover="helper(1);"><br/><br/></label>
+                <label>Password:<input type="password" id="pass" onmouseover="helper(2);"><br/><br/></label>
+                <label>Confirm Password:<input type="password" id="pass1" onmouseover="helper(3);"><br/><br/></label>
+                <div class="submit"><label><input type="submit" id="submit"></label><br/></div>
+        </div>
+    </body>
+</html>

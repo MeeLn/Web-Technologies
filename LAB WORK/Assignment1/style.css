@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+.container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+#box1{
+    background-color:blueviolet;
+    width: min-content;
+    padding: 50px; 
+    border: 6px solid yellow;
+}
+#box2{
+    background-color: brown;
+    width: min-content; 
+    padding: 50px;
+    border: 6px solid blue;
+}
+#box3{
+    background-color: coral;
+    width: min-content; 
+    padding: 5px;
+    border: 6px solid green;
+}

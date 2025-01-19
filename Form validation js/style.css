@@ -1,0 +1,22 @@
+
+.form{
+    margin: auto;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 15px;
+    padding-left: 20px;
+}
+h4{
+    text-align: center;
+    color: chocolate;
+    text-decoration: dotted;
+}
+#submit:hover{
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+}
+span{
+    color: red;
+}

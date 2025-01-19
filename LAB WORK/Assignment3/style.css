@@ -1,0 +1,169 @@
+/* 
+Milan Raut
+Roll: 201420
+BE IT (Morning)
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #202124;
+}
+
+.mr-mainContainer .mr-header{
+    width: 100%;
+    display: inline-block;
+    font-size: 14px;
+    padding: 15px;
+}
+
+.mr-mainContainer .mr-header .mr-headerItems{
+    margin-top: 4px;
+    margin-left: 2px;
+    text-align: right;
+}
+
+.mr-mainContainer .mr-header .mr-headerItems ul{
+    list-style-type: none;
+}
+
+.mr-mainContainer .mr-header .mr-headerItems ul li{
+    display: inline-block;
+    padding: 0 8px;
+}
+
+.mr-mainContainer .mr-header .mr-headerItems ul li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.mr-mainContainer .mr-header .mr-headerItems ul li a:hover{
+    text-decoration: underline;
+}
+
+.mr-header .mr-headerItems ul li a span{
+    font-size: 20px;
+    margin: 5px;
+}
+
+.mr-mainContainer .mr-header .mr-headerItems ul li .mr-signin{
+    background-color: #383a3b;
+    border: 1px solid #383a3b;
+    color: #ffffff;
+    font-size: 14px;
+    margin: 2px 2px;
+    padding: 0 16px;
+    height: 36px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.mr-mainContainer .mr-header .mr-headerItems ul li .mr-signin:hover{
+    border:1px solid rgb(116, 113, 113);
+}
+
+.mr-mainContainer .mr-logo{
+    width:auto;
+    margin: auto;
+    text-align: center;
+    margin: 15px;
+    margin-top: 150px;
+}
+.mr-mainContainer .mr-logo img{
+    width: 300px;
+}
+.mr-mainContainer .mr-searchArea{
+    width: auto;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    max-width: 584px;
+}
+
+.mr-mainContainer .mr-searchArea .mr-searchbar{
+    display: flex;
+    height: 44px;
+    box-shadow: none;
+    border: 1px solid #4f5152;
+    border-radius: 24px;
+    margin: 0 auto;
+    max-width: 584px;
+    background-color: #202124;
+}
+
+.mr-mainContainer .mr-searchArea .mr-searchbar:hover{
+    box-shadow: 0 4px 6px rgba(32,33,36,.28);
+    background-color: #383a3b;
+    border: 1px solid #383a3b;
+}
+
+.mr-mainContainer .mr-searchArea .mr-searchbar .fa-search{
+    background-color: transparent;
+    align-items: center;
+    display: flex;
+    padding-right: 13px;
+    padding-left: 15px;
+    color: #9aa0a6;
+
+}
+
+.mr-mainContainer .mr-searchArea .mr-searchbar input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    font-size: 16px;
+}
+
+.mr-mainContainer .mr-searchArea .mr-searchbar .fa-camera{
+    background-color: transparent;
+    align-items: center;
+    display: flex;
+    padding-right: 15px;
+    padding-left: 13px;
+    margin-top: -3px;
+    color: #9aa0a6;
+}
+
+.mr-mainContainer .mr-searchArea .mr-buttons{
+    padding-top: 18px;
+    font-size: 14px;
+    color: #202124;
+}
+
+.mr-mainContainer .mr-searchArea .mr-buttons .controlButton{
+    background-color: #383a3b;
+    border: 1px solid #383a3b;
+    color: #ffffff;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.mr-mainContainer .mr-searchArea .mr-buttons .controlButton:hover{
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border: 1px solid #4f5152;
+}
+
+.mr-mainContainer .mr-offered{
+    width: auto;
+    text-align: center;
+    font-size: 13px;
+    color: #62676a;
+    margin: 15px;
+}
+
+.mr-mainContainer .mr-offered a{
+    text-decoration: none;
+    color: darkblue;
+}
+
+.mr-mainContainer .mr-offered a:hover{
+    text-decoration: underline;
+}
